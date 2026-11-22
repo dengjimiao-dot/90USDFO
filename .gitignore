@@ -67,3 +67,11 @@ __pycache__/
 *.py[cod]
 .venv/
 .pytest_cache/
+
+# Local GM/launcher configuration and build outputs
+remote-profile.json
+server-cert*.pem
+winrm-config.json
+*.user
+obj/
+bin/

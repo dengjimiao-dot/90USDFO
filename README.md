@@ -1,6 +1,6 @@
 # 90USDFO 服务端源码
 
-90USDFO 服务端项目的源码快照，包含游戏、频道、登录、GM 管理和组队中继。
+90USDFO 项目源码，包含游戏服务端、GM 管理后台、玩家登录器和组队中继。
 
 [查看项目修改记录](CHANGELOG.md)。
 
@@ -10,9 +10,12 @@
 | `server_proto/native_core/` | 服务端原生计算模块 |
 | `server_proto/pvf/native/` | PVF 原生读取模块 |
 | `server_proto/start/native_launcher/` | 本地会话启动辅助程序 |
-| `gm_manager/` | Go GM 管理服务和测试 |
+| `gm_manager/` | Go GM 服务、桌面端、玩家登录器及下载器 |
+| `player_launcher/` | WPF 登录器、原生启动程序及辅助桥接 |
 | `party_relay/` | Go 组队中继和边缘节点服务 |
 | `server-pack-win10/` | Windows 运行目录和启动相关辅助源码 |
+
+[GM 后台与登录器构建及本地配置](player_launcher/README.md)。
 
 ## 本地检查
 
